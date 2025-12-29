@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finexa - Akıllı Muhasebe Yönetimi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        .hero-section {
+            background: linear-gradient(to right, #6366f1, #a855f7); /* Mor-mavi gradient */
+            color: white;
+            padding: 8rem 0;
+            text-align: center;
+        }
+        .feature-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .download-button {
+            background-color: #22c55e; /* Yeşil */
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .download-button:hover {
+            background-color: #16a34a; /* Daha koyu yeşil */
+        }
+        .footer {
+            background-color: #1e293b; /* Koyu gri */
+            color: #cbd5e1;
+            padding: 3rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">Finexa</a>
+            </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container mx-auto px-4">
+            <img src="https://via.placeholder.com/150" alt="Finexa Logo" class="mx-auto mb-6 rounded-full shadow-lg" id="finexa-logo"> <h1 class="text-5xl font-extrabold mb-4 leading-tight">Finexa: Akıllı Muhasebe Yönetimi Parmaklarınızın Ucunda</h1>
+            <p class="text-xl mb-8 opacity-90">Kasa ve banka işlemlerinizi kolayca takip edin, finansal verilerinizi güvenle yönetin.</p>
+            <a href="YOUR_DOWNLOAD_LINK_HERE" target="_blank" class="download-button shadow-lg">Uygulamayı Hemen İndir</a>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Finexa'nın Özellikleri</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card">
+                    <div class="text-indigo-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Kasa Yönetimi</h3>
+                    <p class="text-gray-600">Nakit giriş ve çıkışlarınızı anında kaydedin, güncel kasa bakiyenizi takip edin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="text-purple-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h10m-9 4h8a3 3 0 003-3v-6a3 3 0 00-3-3H9a3 3 0 00-3 3v6a3 3 0 003 3z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Banka Entegrasyonu</h3>
+                    <p class="text-gray-600">Tüm banka hesaplarınızın hareketlerini tek bir ekranda görüntüleyin, virman işlemlerini kolayca yapın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="text-green-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Hızlı İşlem İptali</h3>
+                    <p class="text-gray-600">Hatalı girilen kasa veya banka hareketlerini saniyeler içinde geri alın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="text-yellow-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V6m0 10v2M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-7.568 7.568L12 10.5l-.568.568m5.176 0L12 10.5l.568.568"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Açık Fatura Takibi</h3>
+                    <p class="text-gray-600">Cari hesaplara ait ödenmemiş faturaları görüntüleyin ve ödemelere ilişkilendirin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="text-red-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Cari Hesap ve Stok Envanteri</h3>
+                    <p class="text-gray-600">Müşteri ve tedarikçi hesaplarınızı yönetin, stok durumunuzu takip edin.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="text-blue-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm12 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zm-6 12a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2zm-6 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Kolay Kullanım</h3>
+                    <p class="text-gray-600">Basit ve sezgisel arayüzü sayesinde muhasebe işlemlerinizi hızla tamamlayın.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Uygulama Ekran Görüntüleri</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://via.placeholder.com/600x400?text=Kasa+Ekranı" alt="Kasa Ekranı" class="rounded-md w-full mb-4">
+                    <p class="text-center text-gray-700 font-medium">Kasa Hareketlerinizi Kolayca Takip Edin</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://via.placeholder.com/600x400?text=Banka+Ekranı" alt="Banka Ekranı" class="rounded-md w-full mb-4">
+                    <p class="text-center text-gray-700 font-medium">Banka Hesaplarınızı Tek Bakışta Yönetin</p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Teknik Gereksinimler</h2>
+            <p class="text-lg text-gray-700">Finexa uygulaması Windows 10 ve Windows 11 işletim sistemleri ile uyumludur.</p>
+            <p class="text-md text-gray-500 mt-2">Düşük sistem gereksinimleri sayesinde her bilgisayarda akıcı performans.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2024 Finexa. Tüm Hakları Saklıdır.</p>
+            <p class="mt-2">İletişim: <a href="mailto:destek@finexa.com" class="text-blue-300 hover:underline">destek@finexa.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Logo URL'sini buraya ekleyeceğiz
+        document.getElementById('finexa-logo').src = 'https://via.placeholder.com/150'; // Logo resim linki buraya gelecek
+    </script>
+</body>
+</html>
